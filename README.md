@@ -1,6 +1,6 @@
 # TDNAmagic
 
-Shell script to complement TDNAscan in some minor way. To be more precise, it allows you to call TDNAscan from the working directory you are in and receive the results into the very same one. Without the fuss of cleaning up your TDNAscan directory.
+Shell script to complement TDNAscan in some minor way. To be more precise, it allows you to call [TDNAscan](https://github.com/noble-research-institute/TDNAscan) from the working directory you are in and receive the results into the very same one. Without the fuss of cleaning up your TDNAscan directory.
 
 ## Usage
 
