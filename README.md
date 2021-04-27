@@ -5,7 +5,7 @@ Shell script to complement TDNAscan in some minor way. To be more precise, it al
 ## Usage
 
 1. Make sure your TDNAscan is working. Invoke `python tdnascan.py --version` from the TDNAscan directory or something.
-2. Move the script to any of your `bin` path (so you can invoke it from anywhere) and make it executable. Preferably of any of the user accessible ones.
+2. Move the script to any of your `bin` path (so you can invoke it from anywhere) and make it executable. Preferably of any of the user accessible ones. Or just add an alias to whatever-shell-you-have initialization file.
 3. Open the script in an editor of your choice and add the path to your TDNAscan dir and check the contents that it doesn't do anything malicious.
 4. Navigate to your working directory (containing your the two paired read files, the T-DNA sequence file and the genome sequence file).
 4. Call the script:
