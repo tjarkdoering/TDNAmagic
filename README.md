@@ -15,4 +15,4 @@ $ tdnamagic.sh -1 forward.fq -2 reverse.fq -t t-dna.fa -g ref_genome.fa
 
 ## Troubles using this?
 
-Feel free to contact me or any of your resident bioinformatician :wink:
+Feel free to contact me or any of your resident bioinformaticians :wink:
