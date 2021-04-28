@@ -23,7 +23,7 @@ echo "Hi $USER, thanks for using TDNAmagic, good luck with your work!"
 echo "You have given me $# arguments. Good so far."
 
 echo
-echo "TDNAscan dir is:"
+echo "TDNAscan directory is:"
 echo $path_tdnascan
 
 echo
@@ -37,7 +37,11 @@ cd $path_tdnascan
 
 # Invoke tdnascan with arguments given by user
 # python tdnascan.py --version
-# python tdnascan.py -1 $2 -2 $4 -t $6 -g $8 -t TDNAoutput
+python tdnascan.py -1 $2 -2 $4 -t $6 -g $8 -t TDNAoutput
+
+
+# move the file that should be in the output dir into it
+mv nameofthatonefile TDNAoutput
 
 
 # Move the output dir to working dir
