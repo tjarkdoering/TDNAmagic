@@ -37,7 +37,8 @@ cd $path_tdnascan
 
 # Invoke tdnascan with arguments given by user
 # python tdnascan.py --version
-python tdnascan.py -1 $2 -2 $4 -t $6 -g $8 -t TDNAoutput
+python tdnascan.py -1 $path_projectdir/$2 -2 $path_projectdir/$4 -t $path_projectdir/$6 -g $path_projectdir/$8 -t TDNAoutput
+
 
 
 # move the file that should be in the output dir into it
